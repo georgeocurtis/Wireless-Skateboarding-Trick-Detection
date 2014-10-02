@@ -19,7 +19,7 @@ public class ColorWheel {
         int color = 0;
 
         Random randomGen = new Random();
-
+	// Woohoo
         int rand = randomGen.nextInt(colors.length);
         color = colors[rand];
         return color;
